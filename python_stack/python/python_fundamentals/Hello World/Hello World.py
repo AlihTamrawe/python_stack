@@ -3,7 +3,7 @@ print("hallo word " )
 # 2. print "Hello Noelle!" with the name in a variable
 name = "Ali"
 print( "hallo",name)	# with a comma
-print("hallo"+name)	# with a +
+print("hallo"+name)  	# with a +
 # 3. print "Hello 42!" with the number in a variable
 name = 42
 print( "hello",name )	# with a comma

@@ -26,3 +26,5 @@ ali.deposit(1000).deposit(1000).deposit(800).withdraw(200).yield_interest().disp
 
 ahmad = BankAccount(0.157, 7000)
 ahmad.deposit(1000).deposit(2000).withdraw(800).withdraw(2000).yield_interest().display_account_info()
+
+

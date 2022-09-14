@@ -38,8 +38,9 @@ class User:
         return self
     
     
-  def display_user_balance(self):
+  def display_user_balance( self):
     self.account.display_account_info()
+    
   def depositt(self, amount):
     self.account.deposit(amount)
     return self

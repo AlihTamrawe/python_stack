@@ -8,8 +8,11 @@ class BankAccount:
     return self
 
   def withdraw(self, amount):
+    if self.balance-amount > 0 :
       self.balance-=amount
       return self
+    else :
+      print("insuff ...")
 
   def display_account_info(self):
     print(f"your balance :{self.balance}")
